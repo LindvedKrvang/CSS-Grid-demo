@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+}
+
+.subgrid {
+  display: grid;
+  grid-template: subgrid / subgrid;
+}
+
+.rosterTime {
+  background: cadetblue;
+  border: black solid 1px;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.day {
+  background: coral;
+  border: black solid 1px;
+}
+
+.event {
+  background: cornsilk;
+  border: black solid 1px;
+}
