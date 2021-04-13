@@ -1,25 +1,21 @@
 .grid {
   display: grid;
+  grid-template-rows: repeat(20, 100px);
 }
 
-.subgrid {
-  display: grid;
-  grid-template: subgrid / subgrid;
-}
-
-.rosterTime {
+.sidebarTile {
   background: cadetblue;
   border: black solid 1px;
   min-width: 100px;
   min-height: 100px;
 }
 
-.day {
+.headerTile {
   background: coral;
   border: black solid 1px;
 }
 
-.event {
+.eventTile {
   background: cornsilk;
   border: black solid 1px;
 }

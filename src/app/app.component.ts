@@ -36,7 +36,6 @@ export class AppComponent implements OnInit {
       }
       this.gridTemplateAreas = `${this.gridTemplateAreas} ${tmp}`;
     })
-    console.log(this.gridTemplateAreas);
   }
 
   private calculateGridTemplateColumns(): void {
@@ -50,7 +49,7 @@ export class AppComponent implements OnInit {
   }
 
   convertRosterTimeToCssReadableString(rosterTime: string): string {
-    // The CSS won't work if we write 12:00 as it will read it as two numbers and not a string
+    // The CSS won't work if we write 12:00 as it will read it as two numbers and not as a string
     return `t${rosterTime.replace(':', '-')}`;
   }
 
